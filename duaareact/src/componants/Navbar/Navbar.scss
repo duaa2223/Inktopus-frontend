@@ -1,0 +1,133 @@
+// :root {
+//     --color-background-light: #F8EDE3;
+//     --color-background-medium: #DFD3C3;
+//     --color-background-dark: #D0B8A8;
+//     --color-accent: #8D493A;
+//     --color-white: #FFFFFF;
+//   }
+//   .navBarSection{
+//     .header{
+//         position: fixed;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         background: transparent;
+//         width: 100%;
+//     }padding: 1rem;
+//     z-index: 1000;
+//     logoDiv{
+//         .logo{
+//             color:var(--color-accent);
+//             font-weight: 500;
+//             cursor: pointer;
+//             align-items: center;
+//             justify-content: center;
+//         .icon{
+//             color: var(--color-accent);
+//             font-size: 25px ;
+//         }
+
+//         }
+//     }
+//     @media screen and (max-width: 768px){
+//         .navBar{
+//             background: #F8EDE3;
+//         }
+//     }
+//   }
+// :root {
+//     --color-background-light: #F8EDE3;
+//     --color-background-medium: #DFD3C3;
+//     --color-background-dark: #D0B8A8;
+//     --color-accent: #8D493A;
+//     --color-white: #FFFFFF;
+//   }
+  
+//   .navBarSection {
+//     padding: 1rem 0;
+  
+//     .header {
+//       background: transparent;
+//       position: fixed;
+//       width: 100%;
+//       z-index: 1000;
+  
+//       .logoDiv .logo {
+//         color: var(--color-accent);
+//         font-weight: 500;
+//         cursor: pointer;
+//       }
+  
+//       .navBar {
+//         display: flex;
+//         align-items: center;
+  
+//         .navLists {
+//           display: flex;
+//           align-items: center;
+  
+//           .navItem .navLink {
+//             color: var(--color-accent);
+//             font-weight: 500;
+//             padding: 0.5rem 1rem;
+//             text-decoration: none;
+//             transition: color 0.3s ease;
+  
+//             &:hover {
+//               color: var(--color-background-dark);
+//             }
+//           }
+//         }
+  
+//         .headerBtns {
+//           .btn {
+//             padding: 0.5rem 1rem;
+//             background: var(--color-accent);
+//             border: none;
+//             border-radius: 0.5rem;
+//             cursor: pointer;
+  
+//             a {
+//               color: var(--color-white);
+//               font-weight: 500;
+//               text-decoration: none;
+  
+//               &:hover {
+//                 color: var(--color-background-dark);
+//               }
+//             }
+//           }
+//         }
+//       }
+  
+//       .toggleNavbar {
+//         display: none;
+//         @media screen and (max-width: 768px) {
+//           display: block;
+//         }
+//       }
+//     }
+//   }
+  
+//   .icon {
+//     font-size: 2rem;
+//     cursor: pointer;
+//     color: var(--color-accent);
+//   }
+  
+  
+.header {
+  padding: 0; /* إزالة أي padding إضافي */
+  margin: 0; /* إزالة أي margin إضافي */
+  left: 0;
+  right: 0;
+  width: 100%; /* تأكد من أن العرض 100% */
+}
+
+.container {
+  padding-left: 0; /* إزالة padding من الجهة اليسرى */
+  padding-right: 0; /* إزالة padding من الجهة اليمنى */
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%; /* تأكد من أن الحاوية تأخذ عرض الصفحة بالكامل */
+}
